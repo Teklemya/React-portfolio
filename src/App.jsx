@@ -1,12 +1,15 @@
-// eslint-disable-next-line no-unused-vars
-import React from "react"
+import About from "./Components/About/About"
+import Hero from "./Components/Hero/Hero"
+import Navbar from "./Components/Navbar/Navbar"
 
 const App = () => {
   return (
     <div>
-      <h1>Hello, world!</h1>
+      <Navbar/>
+      <Hero/>
+      <About/>
     </div>
   )
 }
 
-export default App
+export default App  
