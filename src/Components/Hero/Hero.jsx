@@ -12,12 +12,12 @@ const Hero = () => {
       <div className="hero-content">
         <img src={profile_img} alt="" />
         <h1>
-          <span>Izak here,</span> frontend developer based in Cincinnati, Ohio.
+          <span>إِسْحَاق here,</span> frontend developer based in Cincinnati, Ohio.
         </h1>
         <p>
           I specialize in creating interactive expriences for the web. I have 3
           years of experience in multiple companies like UCHealth, and
-          OrangeIsBtter.
+          OrangeIsBetter.
         </p>
         <div className="hero-action">
           <div className="hero-connect">Connect with me</div>
