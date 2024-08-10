@@ -12,7 +12,7 @@ const Navbar = () => {
         <li>Projects</li>
         <li>Contact</li>
       </ul>
-      <div className="nav-connect">Connect with me</div>
+      {/* <div className="nav-connect">Connect with me</div> */}
     </div>
   )
 }
