@@ -1,9 +1,27 @@
+import { useState, useEffect } from 'react';
 import "./Hero.css";
 import profile_img from "/src/assets/izak_profile.jpg";
 import resume from "/src/assets/resume.pdf";
 import Social from "/src/Components/Social/Social.jsx";
 
+import { getTranslation } from '../../Js/Translation.js'; // Import the translation function
+
 const Hero = () => {
+  const [translatedName, setTranslatedName] = useState('');
+
+  useEffect(() => {
+    const fetchTranslations = async () => {
+      const name = 'Isaac'; // English name
+      const languages = ['Arabic']; // OpenAI expects full language names
+
+      // Fetch translation for Arabic
+      const arabicTranslation = await getTranslation(name, languages[0]);
+      setTranslatedName(arabicTranslation);
+    };
+
+    fetchTranslations();
+  }, []);
+
   return (
     <div className="hero">
       <div className="hero-social-left">
@@ -12,7 +30,7 @@ const Hero = () => {
       <div className="hero-content">
         <img src={profile_img} alt="" />
         <h1>
-          <span>إسحاق here,</span> frontend developer based in Cincinnati, Ohio.
+          <span>{translatedName || 'Isaac'} here,</span> frontend developer based in Cincinnati, Ohio.
         </h1>
         <p>
           I specialize in creating interactive expriences for the web. I have 3
