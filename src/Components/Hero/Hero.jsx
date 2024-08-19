@@ -30,7 +30,7 @@ const Hero = () => {
       <div className="hero-content">
         <img src={profile_img} alt="Profile" />
         <h1>
-          <span>{translatedName || 'Isaac'} here,</span> frontend developer based in Cincinnati, Ohio.
+          <span>{translatedName && 'إسحاق'} here,</span> frontend developer based in Cincinnati, Ohio.
         </h1>
         <p>
           I specialize in creating interactive expriences for the web. I have 3
