@@ -4,7 +4,7 @@ import profile_img from "/src/assets/izak_profile.jpg";
 import resume from "/src/assets/resume.pdf";
 import Social from "/src/Components/Social/Social.jsx";
 
-import { getTranslation } from '../../Js/Translation.js'; // Import the translation function
+import { getTranslation } from '/src/Js/Translation.js'; // Import the translation function
 
 const Hero = () => {
   const [translatedName, setTranslatedName] = useState('');
@@ -12,10 +12,10 @@ const Hero = () => {
   useEffect(() => {
     const fetchTranslations = async () => {
       const name = 'Isaac'; // English name
-      const languages = ['Arabic']; // OpenAI expects full language names
+      const targetLang = 'Arabic'; // Target language for translation
 
-      // Fetch translation for Arabic
-      const arabicTranslation = await getTranslation(name, languages[0]);
+      // Fetch translation using Gemini
+      const arabicTranslation = await getTranslation(name, targetLang);
       setTranslatedName(arabicTranslation);
     };
 
@@ -28,7 +28,7 @@ const Hero = () => {
         <Social />
       </div>
       <div className="hero-content">
-        <img src={profile_img} alt="" />
+        <img src={profile_img} alt="Profile" />
         <h1>
           <span>{translatedName || 'Isaac'} here,</span> frontend developer based in Cincinnati, Ohio.
         </h1>
