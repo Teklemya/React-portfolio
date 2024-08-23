@@ -3,7 +3,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 export async function getTranslation(text, targetLang) {
-  const apiKey = "API-KE"; // Replace with your Google API key
+  const apiKey = "API-KEY"; // Replace with your Google API key
   const genAI = new GoogleGenerativeAI(apiKey);
   const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
