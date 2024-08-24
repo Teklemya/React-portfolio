@@ -30,18 +30,18 @@ const About = () => {
       </div>
       <div className="about-achievements">
           <div className="about-achievement">
-            <h1>10+</h1>
-            <p>YEARS OF EXPERINCE</p>
+            <h1>5+</h1>
+            <p>Years Of Experince</p>
           </div>
           <hr />
           <div className="about-achievement">
-            <h1>90+</h1>
-            <p>PROJECTS COMPLETED</p>
+            <h1>30+</h1>
+            <p>Projects Completed</p>
           </div>
           <hr />
           <div className="about-achievement">
             <h1>15+</h1>
-            <p>PROGRAMMING LANGUAGES</p>
+            <p>Programming Language</p>
           </div>
         </div>
     </div>
