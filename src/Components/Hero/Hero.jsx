@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import "./Hero.css";
-import profile_img from "/src/assets/izak_profile.jpg";
+import profile_img from "/src/assets/izak_profile1.jpg";
 import resume from "/src/assets/resume.pdf";
 import Social from "/src/Components/Social/Social.jsx";
 
