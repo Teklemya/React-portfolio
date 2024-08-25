@@ -1,20 +1,25 @@
 import "./Qualifications.css";
+import theme_pattern from "../../assets/theme_pattern.svg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+import { faGraduationCap, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
 const Qualification = () => {
   return (
     <div className="qualification-section">
-    <h2 className="section-title">Qualifications</h2>
+    <div className="qualification-title">
+        <h1>Qualifications</h1>
+        <img src={theme_pattern} alt="" />
+      </div>
     <span className="section-subtitle">My personal journey</span>
 
     <div className="qualification-container">
       <div className="qualification-tabs">
-        <div className="qualification-button qualification__active button--flex">
-          <i className="uil uil-graduation-cap qualification__icon"></i> Education
-        </div>  
-
-        <div className="qualification-button button--flex">
-          <i className="uil uil-briefcase-alt qualification_icon"></i> Experience
-        </div>  
+        <div className="qualification-buttons">
+          <div className="qualification-button">
+            <FontAwesomeIcon className="graduation-cap" icon={faGraduationCap} /> Education
+            <FontAwesomeIcon className="briefcase-alt" icon={faBriefcase} /> Experience
+          </div>
+        </div>   
       </div>
     <div className="qualification-sections">
         <div className="qualification-content qualification__content-active">
