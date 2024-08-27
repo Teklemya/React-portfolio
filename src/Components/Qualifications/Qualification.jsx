@@ -81,10 +81,6 @@ const Qualification = () => {
           </div> 
 
           <div className="qualification-data">
-          
-
-            
-
             <div>
             <div className="qualification_title"><h3>Masters In Technology</h3></div>
                 <span className="qualification-subtitle">Information Technology - Univeristy of Cincinnati  </span>
