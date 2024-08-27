@@ -1,9 +1,17 @@
+// eslint-disable-next-line no-unused-vars
+import React, { useState } from "react";
 import "./Qualifications.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 import { faGraduationCap, faBriefcase, faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Qualification = () => {
+  const [toggleState, setToggleState] = useState(2);
+
+  const toggleTab = (index) => {
+    setToggleState(index);
+  };
+
   return (
     <div className="qualification-section">
     <div className="qualification-title">
@@ -13,20 +21,34 @@ const Qualification = () => {
     <h1 className="section-subtitle">My personal journey</h1>
 
     <div className="qualification-container">
-   
         <div className="qualification-buttons">
-          <div className="qualification-button">
+          <div className={
+            toggleState === 1 
+            ? "qualification-button qualification__active" 
+            : "qualification-button"
+          } onClick={() => toggleTab(1)}
+          >
             <FontAwesomeIcon className="graduation-cap" icon={faGraduationCap} /> Education
-            
+          
           </div>
-          <div className="qualification-button">
+          <div className={
+            toggleState === 2 
+            ? "qualification-button qualification__active" 
+            : "qualification-button"
+          } onClick={() => toggleTab(2)}>
            
             <FontAwesomeIcon className="briefcase-alt" icon={faBriefcase} /> Experience
           </div>
         </div>   
      
     <div className="qualification-sections">
-        <div className="qualification-content qualification__content-active">
+        <div 
+        className={
+          toggleState === 1 
+          ? "qualification-content qualification__content-active" 
+          : "qualification-content"
+        } >
+        
           <div className="qualification-data">
             <div>
               <div className="qualification_title"><h3>Bachelors In Technology</h3></div>
@@ -59,10 +81,14 @@ const Qualification = () => {
           </div> 
         </div>
 
-        <div className="qualification-content">
+        <div className={
+          toggleState === 2 
+          ? "qualification-content qualification__content-active" 
+          : "qualification-content"
+        }>
           <div className="qualification-data">
             <div>
-            <div className="qualification_title"><h3>Student Sucess Coach</h3></div>
+            <div className="qualification_title"><h3>Student Sucess Coach CooP</h3></div>
                 <span className="qualification-subtitle">CECH @ UC</span>
                 <div className="qualification-calendar">
                   <FontAwesomeIcon className="calendar" icon={faCalendarAlt} /> Aug 2024 - Present
