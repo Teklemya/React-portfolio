@@ -52,7 +52,7 @@ const Qualification = () => {
           <div className="qualification-data">
             <div>
               <div className="qualification_title"><h3>Bachelors In Technology</h3></div>
-                <span className="qualification-subtitle">Information Technology - Univeristy of Cincinnati </span>
+                <span className="qualification-subtitle">Software Development - Univeristy of Cincinnati </span>
                 <div className="qualification-calendar">
                   <FontAwesomeIcon className="calendar" icon={faCalendarAlt} /> Aug 2022 - Apr 2027
                 </div>             
@@ -62,7 +62,6 @@ const Qualification = () => {
                 <span className="qualification-line"></span>
               </div>
           </div>
-
           <div className="qualification-data">
             <div></div>
 
@@ -72,11 +71,29 @@ const Qualification = () => {
             </div>
 
             <div>
+            <div className="qualification_title"><h3>Bachelorss In Technology</h3></div>
+                <span className="qualification-subtitle">Cyber Security - Univeristy of Cincinnati  </span>
+                <div className="qualification-calendar">
+                  <FontAwesomeIcon className="calendar" icon={faCalendarAlt} /> Aug 2022 - Apr 2027
+                </div>             
+            </div>
+            
+          </div> 
+
+          <div className="qualification-data">
+          
+
+            
+
+            <div>
             <div className="qualification_title"><h3>Masters In Technology</h3></div>
                 <span className="qualification-subtitle">Information Technology - Univeristy of Cincinnati  </span>
                 <div className="qualification-calendar">
                   <FontAwesomeIcon className="calendar" icon={faCalendarAlt} /> Jan 2025 - Apr 2027
                 </div>             
+            </div><div>   
+                <span className="qualification-round"></span>
+                <span className="qualification-line"></span>
             </div>
           </div> 
         </div>
