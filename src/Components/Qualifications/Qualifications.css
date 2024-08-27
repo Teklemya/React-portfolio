@@ -45,7 +45,7 @@
 }
 .qualification-button{
     display: flex;   
-    gap: 6px;
+    gap: 10px;
     font-size: 20px;
     cursor: pointer;
 }
@@ -74,6 +74,9 @@
     align-items: center;
 }
 .qualification-calendar{
+    display: flex;   
+    gap: 10px;
+    padding-top: 10px;
     margin-bottom: 15px;
 }
 .qualification-content{
@@ -93,4 +96,11 @@
     height: 13px;
     background-color: white;
     border-radius: 50%;
+}
+.qualification-line{
+    display: block;
+    width: 2px;
+    height: 100%;
+    background-color: white;
+    transform: translate(6px, -7px);
 }
