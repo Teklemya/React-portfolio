@@ -3,10 +3,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
+    margin: 80px 170px;
 }
 .qualification-title{
     position: relative;
+    display: flex;
+    justify-content: center;
 }
+.section-subtitle{
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .qualification-title h1{
     padding: 0px 30px;
     font-size: 80px;
@@ -18,37 +29,68 @@
     right: 0;
     z-index: -1;
 }
+   
 .section-subtitle{
     margin: 20px 20px;
-}
-.qualification-button{
-    display: flex;
-    gap: 20px;
-}
-
-
-
-
-
-
-
-
-/* .qualification-container{
-    max-width: 768px;
-}
-.qualification-tabs{
     display: flex;
     justify-content: center;
-    margin-bottom: var(--mb-2); 
+    align-items: center;
+}
+.qualification-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
 }
 .qualification-button{
-    font-size: var(--h3-font-size);
-    font-weight: var(--font-medium);
-    color: var(--title-color);
-    margin: 0 var(--mb-1);
+    display: flex;   
+    gap: 6px;
+    font-size: 20px;
     cursor: pointer;
-    transition: 0.3s;
 }
 .qualification-button:hover{
-    color: var(--);
-} */
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.qualification-container{
+    max-width: 768px;
+}
+.qualification-sections{
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.qualification_title h3{
+    padding-bottom: 5px;
+}
+.qualification-subtitle{
+    display: inline-block;
+    padding-bottom: 5px;
+    align-items: center;
+}
+.qualification-calendar{
+    margin-bottom: 15px;
+}
+.qualification-content{
+    display: none;
+}
+.qualification__content-active{
+    display: block;
+}
+.qualification-data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+.qualification-round{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: white;
+    border-radius: 50%;
+}
