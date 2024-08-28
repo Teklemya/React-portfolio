@@ -71,7 +71,7 @@ const Qualification = () => {
             </div>
 
             <div>
-            <div className="qualification_title"><h3>Bachelorss In Technology</h3></div>
+            <div className="qualification_title"><h3>Bachelors In Technology</h3></div>
                 <span className="qualification-subtitle">Cyber Security - Univeristy of Cincinnati  </span>
                 <div className="qualification-calendar">
                   <FontAwesomeIcon className="calendar" icon={faCalendarAlt} /> Aug 2022 - Apr 2027
