@@ -8,18 +8,21 @@ import project6_img from '../assets/project_6.svg'
 const mywork_data = [
     {
         w_no:1,
-        w_name:"Web design",
-        w_img:project1_img
+        w_name:"UCLIMS",
+        w_img:project1_img,
+        w_link:"https://uclims.uc.edu/"
     },
     {
         w_no:2,
-        w_name:"Web design",
-        w_img:project2_img
+        w_name:"COM UC",
+        w_img:project2_img,
+        w_link:"https://med.uc.edu/"
     },
     {
         w_no:3,
-        w_name:"Web design",
-        w_img:project3_img
+        w_name:"OrangeIsBetter",
+        w_img:project3_img,
+        w_link:"https://orangeisbetter.com/"
     },
     {
         w_no:4,
