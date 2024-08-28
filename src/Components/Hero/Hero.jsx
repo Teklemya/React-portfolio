@@ -23,7 +23,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="hero">
+    <div id='#home' className="hero">
       <div className="hero-social-left">
         <Social />
       </div>

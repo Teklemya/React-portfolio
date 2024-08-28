@@ -6,14 +6,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap, faBriefcase, faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Qualification = () => {
-  const [toggleState, setToggleState] = useState(0);
+  const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
     setToggleState(index);
   };
 
   return (
-    <div className="qualification-section">
+    <div id="qualification" className="qualification-section">
     <div className="qualification-title">
         <h1>Qualifications</h1>
         <img src={theme_pattern} alt="" />
