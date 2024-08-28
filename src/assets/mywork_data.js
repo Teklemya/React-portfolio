@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import UCLIMS from '../assets/UCLIMS.png'
+import UCLIMS from '../assets/project_3.svg'
 import UCCOM from '../assets/UC_COM.jpg'
 import orangeisbetter from '../assets/project_6.svg'
 import project4_img from '../assets/project_4.svg'

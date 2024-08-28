@@ -3,8 +3,25 @@ import "./Contact.css"
 import mail_icon from "../../assets/mail_icon.svg"
 import location_icon from "../../assets/location_icon.svg"
 import call_icon from "../../assets/call_icon.svg"
+// eslint-disable-next-line no-unused-vars
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
+        .then((result) => {
+            console.log(result.text);
+            alert("Message sent successfully!");
+        }, (error) => {
+            console.log(error.text);
+            alert("Failed to send message.");
+        });
+    };
   return (
     <div className="contact">
       <div className="contact-title">
@@ -32,7 +49,7 @@ const Contact = () => {
                         </div>
                     </div>
             </div>
-            <from className="contact-right">
+            <form ref={form} onSubmit={sendEmail} className="contact-right">
                 <label htmlFor="name">Your Name</label>
                 <input type="text" name="name" placeholder="Enter your Name" />
                 <label htmlFor="email">Your Email</label>
@@ -40,7 +57,7 @@ const Contact = () => {
                 <label htmlFor="message">Write your message here</label>
                 <textarea name="message" rows="8" placeholder="Write your message here"></textarea>
                 <button type='submit' className="contact-submit">Submit now</button>
-            </from>
+            </form>
         </div>
     </div>
   )

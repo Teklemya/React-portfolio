@@ -4,6 +4,7 @@ import MyWork from "./Components/MyWork/MyWork"
 import Navbar from "./Components/Navbar/Navbar"
 import Qualification from "./Components/Qualifications/Qualification"
 import Contact from "./Components/Contact/Contact"
+import Footer from "./Components/Footer/Footer"
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Qualification/>
       <MyWork/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }

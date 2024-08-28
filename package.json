@@ -16,6 +16,7 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@google-cloud/translate": "^8.3.0",
     "@google/generative-ai": "^0.16.0",
+    "emailjs-com": "^3.2.0",
     "react": "^18.3.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^18.3.1",
