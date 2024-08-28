@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap, faBriefcase, faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Qualification = () => {
-  const [toggleState, setToggleState] = useState(2);
+  const [toggleState, setToggleState] = useState(0);
 
   const toggleTab = (index) => {
     setToggleState(index);

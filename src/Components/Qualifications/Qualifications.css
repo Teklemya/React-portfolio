@@ -57,6 +57,7 @@
 }
 .qualification-container{
     max-width: 768px;
+    margin-bottom: 100px;
 }
 .qualification-sections{
     display: grid;
