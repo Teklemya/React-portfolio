@@ -29,6 +29,7 @@
     box-sizing: border-box;
     width: 419px;
     height: 280px;
+    border-radius: 20px;
     cursor: pointer;
 }
 .mywork-container img:hover{
