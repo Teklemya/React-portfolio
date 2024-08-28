@@ -13,7 +13,7 @@ const Contact = () => {
       </div>
         <div className="contact-section">
             <div className="contact-left">
-                <h1>Let us talk</h1>
+                <h1>Let&apos;s talk</h1>
                 <p>
                     I am available for Summer 2025 Internship. Connect with me through email or phone.
                 </p>
