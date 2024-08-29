@@ -2,9 +2,14 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth !important;
+  }
+  
 body{
     height: 100vh;
     background: #161513;
     color: #fff;
     font-family: 'outfit', sans-serif, 'Arial', 'Helvetica', 'Cairo';
+    transition: all 0.4s ease; /* Add smooth transition */
 }
