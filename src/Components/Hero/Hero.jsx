@@ -6,20 +6,30 @@ import Social from "/src/Components/Social/Social.jsx";
 import { getTranslation } from '/src/Js/Translation.js'; // Import the translation function
 
 const Hero = () => {
-  const [translatedName, setTranslatedName] = useState('');
+  const [translatedName, setTranslatedName] = useState('Isaac'); // Start with English name
+  const [currentLangIndex, setCurrentLangIndex] = useState(0);
+ 
 
   useEffect(() => {
-    const fetchTranslations = async () => {
+     const languages = ['English', 'Arabic', 'Japanese']; // List of languages to translate to
+     
+     const fetchTranslations = async () => {
       const name = 'Isaac'; // English name
-      const targetLang = 'Japanesse' ; // Target language for translation
+      const targetLang = languages[currentLangIndex]; // Get current target language
 
       // Fetch translation using Gemini
-      const arabicTranslation = await getTranslation(name, targetLang);
-      setTranslatedName(arabicTranslation);
+      const translatedText = await getTranslation(name, targetLang);
+      setTranslatedName(translatedText);
     };
 
     fetchTranslations();
-  }, []);
+
+    const intervalId = setInterval(() => {
+      setCurrentLangIndex((prevIndex) => (prevIndex + 1) % languages.length);
+    }, 5000); // Switch languages every 5 seconds
+
+    return () => clearInterval(intervalId);
+  }, [currentLangIndex, setTranslatedName]); 
 
   return (
     <div id='home' className="hero">
@@ -29,7 +39,7 @@ const Hero = () => {
       <div className="hero-content">
         <img src={profile_img} alt="Profile" />
         <h1>
-          <span>{translatedName } here,</span> frontend developer based in Cincinnati, Ohio. {/*make sure to change && to || in the condition */} 
+          <span>{translatedName} here,</span> frontend developer based in Cincinnati, Ohio. {/*make sure to change && to || in the condition */} 
         </h1> 
         <p>
           I specialize in creating interactive expriences for the web. I have 3

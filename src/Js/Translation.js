@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 export async function getTranslation(text, targetLang) {
-  const apiKey = "USE API KEY"; // Replace with your Google API key
+  const apiKey = "GEMNI API KEY"; // Replace with your Google API key
   const genAI = new GoogleGenerativeAI(apiKey);
   const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
@@ -13,7 +13,7 @@ export async function getTranslation(text, targetLang) {
 
     if (response && response.response.candidates && response.response.candidates.length > 0) {
       const translatedText = response.response.candidates[0].content.parts[0].text;
-      console.log("Translation:", translatedText);
+      
       return translatedText;
     } else {
       console.error("Unexpected API response structure:", response);
