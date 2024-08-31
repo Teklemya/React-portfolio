@@ -14,7 +14,7 @@
     color: #fff; 
   }
 .hero-social-right{
-    margin-right: 20px; 
+    margin-right: 50px; 
     padding: 20px
 }
 .hero-content{
@@ -107,6 +107,31 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+@media screen and (max-width: 1024px){
+    .hero-content h1{
+        font-size: 50px;
+    }
+    .hero-content p{
+        font-size: 22px;
+        line-height: 36px;
+    }
+    .hero-action{
+        font-size: 22px;
+    }
+    .hero-connect{
+        padding: 20px 40px; 
+        font-size: 20px;
+    }
+    .hero-resume{
+        padding: 20px 60px; 
+        font-size: 20px;
+    }
+    .hero-social-right{
+        margin-right: 20px; 
+        padding: 20px
+    }
+    
+}
 @media (max-width: 768px){
     .hero{
         display: flex;     
@@ -147,7 +172,7 @@
         font-size: 18px;
     }
     .hero-social-right{
-        margin-right: 0;
+        margin-right: 0px;
         padding: 20px;
     }
 }
