@@ -13,8 +13,9 @@ html {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 60px;
+    gap: 40px;
     font-size: 20px;
+    /* margin-right: 20px; */
 }
 
 .nav-menu li {
@@ -85,12 +86,13 @@ html {
         top: 0;
         gap: 30px;
         background-color: #1f0016;
-        width: 350px;
+        width: 320px;
         height: 100%;
         z-index: 2;
         transition: right 0.5s ease;
-        right: -350px;
+        right: -320px;
     }
+    
     .nav-menu li{
       font-size: 30px;
       padding-left: 100px;
