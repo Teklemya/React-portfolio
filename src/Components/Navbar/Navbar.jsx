@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useRef } from 'react'
-import './Navbar.css'
+// import './Navbar.css'
 import logo from '../../assets/logo.jpg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import menu_open from '../../assets/menu_open.svg'
