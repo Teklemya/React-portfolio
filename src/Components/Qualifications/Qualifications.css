@@ -129,11 +129,28 @@
         font-size: 40px;
         padding: 0;
    }
+    .section-subtitle{
+         font-size: 24px;
+    }
    .qualification-title img{
        width: 100px;
        right: -20px;
    }
 }
 @media screen and (max-width: 320px){
-    
+    .qualification-section{
+        margin: 50px 15px;
+        align-items: start;
+    }
+    .qualification-title h1{
+        font-size: 30px;
+    }
+    .section-subtitle{
+        font-size: 20px;
+    }
+    .qualification-title img{
+        width: 80px;
+        right: -20px;
+    }
+
 }
