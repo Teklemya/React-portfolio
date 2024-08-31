@@ -8,12 +8,12 @@ import arrow_icon from "../../assets/arrow_icon.svg";
 
 const MyWork = () => {
   // Initial state to control the number of visible projects
-  const INITIAL_PROJECTS = 3;
+  const INITIAL_PROJECTS = 4;
   const [visibleProjects, setVisibleProjects] = useState(INITIAL_PROJECTS);
 
   // Function to handle "Show more" click
   const handleShowMore = () => {
-    setVisibleProjects(prevVisibleProjects => prevVisibleProjects + 3);
+    setVisibleProjects(prevVisibleProjects => prevVisibleProjects + 2);
   };
 
   // Function to handle "Show less" click

@@ -22,7 +22,7 @@
 }
 .mywork-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
     transition: all 0.4s ease; /* Add smooth transition */
 }
@@ -79,3 +79,132 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+ @media screen and (max-width: 1024px){
+    .mywork{
+        margin: 80px 70px !important;
+    }
+    .mywork-title h1{
+        font-size: 50px;
+    }
+    .mywork-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .mywork-container img{
+        width: 100%;
+        height: 280px;
+    }
+    .mywork-showmore{
+        padding: 20px 40px;
+        font-size: 20px;
+    }
+    .mywork-showless{
+        padding: 20px 40px;
+        font-size: 20px;
+    }
+} 
+@media screen and (max-width: 768px){
+    .mywork{
+        margin: 50px 50px !important;
+        gap: 40px;
+        align-items: start !important;
+    }
+    .mywork-title h1{
+        padding: 0;
+        font-size: 50px;
+    }
+    .mywork-title img{
+        width: 130px;
+        right: -20px;
+    }
+    .mywork-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    .mywork-container img{
+        width: 100%;
+        height: 100%;
+    }
+    .mywork-showmore{
+        padding: 20px 40px;
+        font-size: 20px;
+        margin: 50px auto;
+        cursor: pointer;
+    }
+    .mywork-showless{
+        padding: 20px 40px;
+        font-size: 20px;
+        margin: 50px auto;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 767px){
+    .mywork{
+        margin: 50px 50px !important;
+        gap: 40px;
+        align-items: start !important;
+    }
+    .mywork-title h1{
+        padding: 0;
+        font-size: 50px;
+    }
+    .mywork-title img{
+        width: 130px;
+        right: -20px;
+    }
+    .mywork-container{
+        grid-template-columns: 1fr ;
+        gap: 30px;
+    }
+    .mywork-container img{
+        width: 100%;
+        height: 100%;
+    }
+    .mywork-showmore{
+        padding: 20px 40px;
+        font-size: 20px;
+        margin: 50px auto;
+        cursor: pointer;
+    }
+    .mywork-showless{
+        padding: 20px 40px;
+        font-size: 20px;
+        margin: 50px auto;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 480px){
+    .mywork{
+        margin: 50px 20px !important;
+        gap: 40px;
+        align-items: start !important;
+    }
+    .mywork-title h1{
+        padding: 0;
+        font-size: 40px;
+    }
+    .mywork-title img{
+        width: 100px;
+        right: -20px;
+    }
+    .mywork-container{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .mywork-container img{
+        width: 100%;
+        height: 100%;
+    }
+    .mywork-showmore{
+        padding: 20px 40px;
+        font-size: 20px;
+        margin: 50px auto;
+        cursor: pointer;
+    }
+    .mywork-showless{
+        padding: 20px 40px;
+        font-size: 20px;
+        margin: 50px auto;
+        cursor: pointer;
+    }
+}
+    
