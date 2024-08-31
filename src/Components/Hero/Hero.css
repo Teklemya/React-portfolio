@@ -151,3 +151,79 @@
         padding: 20px;
     }
 }
+@media (max-width: 480px){
+    .hero-content h1{
+        font-size: 30px;
+        width: 90%;
+    }
+    .hero-content p{
+        width: 80%;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .hero-action{
+        gap: 16px;
+        margin-bottom: 30px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .hero-connect{
+        padding: 15px 25px; 
+        font-size: 16px;
+    }
+    .hero-resume{
+        padding: 15px 35px; 
+        font-size: 16px;
+    }
+    .hero img{
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .hero-social{
+        gap: 30px;
+    }
+    .hero-social-right{
+        margin-right: 0;
+        padding: 20px;
+    }
+}
+@media (max-width: 320px){
+    .hero-content h1{
+        font-size: 24px;
+        width: 90%;
+    }
+    .hero-content p{
+        width: 90%;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .hero-action{
+        gap: 16px;
+        margin-bottom: 30px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .hero-connect{
+        padding: 10px 20px; 
+        font-size: 14px;
+    }
+    .hero-resume{
+        padding: 10px 30px; 
+        font-size: 14px;
+    }
+    .hero img{
+        width: 150px;
+        height: 150px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .hero-social{
+        gap: 20px;
+    }
+    .hero-social-right{
+        margin-right: 0;
+        padding: 20px;
+    }
+}
