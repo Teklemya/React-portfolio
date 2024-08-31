@@ -109,11 +109,11 @@
     .qualification-section{
         margin: 50px 70px;
         gap: 40px;
-        align-items: start;
+        /* align-items: start; */
         
     }
     .qualification-title h1{
-        font-size: 50px;
+        font-size: 80px;
         padding: 0;
       
     }
@@ -132,7 +132,7 @@
 @media(max-width: 768px){
    .qualification-section{
        margin: 50px 50px;
-       align-items: start;
+        align-items: start; 
    }
     .qualification-title h1{
          font-size: 60px;
