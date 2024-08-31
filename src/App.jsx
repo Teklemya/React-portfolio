@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import About from "./Components/About/About"
 import Hero from "./Components/Hero/Hero"
 import MyWork from "./Components/MyWork/MyWork"
@@ -14,9 +15,9 @@ const App = () => {
       <Hero/>
       <About/>
       <Qualification/>
-      <MyWork/>
+      {/* <MyWork/>
       <Contact/>
-      <Footer/>
+      <Footer/> */}
     </div>
   )
 }

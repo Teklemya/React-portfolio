@@ -33,9 +33,7 @@ const Hero = () => {
 
   return (
     <div id='home' className="hero">
-      <div className="hero-social-left">
-        <Social />
-      </div>
+      
       <div className="hero-content">
         <img src={profile_img} alt="Profile" />
         <h1>
@@ -54,6 +52,9 @@ const Hero = () => {
             </a>
           </div>
         </div>
+      </div>
+      <div className="hero-social-right">
+        <Social />
       </div>
     </div>
   );

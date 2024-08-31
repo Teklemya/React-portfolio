@@ -14,8 +14,8 @@
     font-size: 40px; 
     color: #fff; 
   }
-.hero-social-left{
-    margin-left: 50px; 
+.hero-social-right{
+    margin-right: 50px; 
     padding: 20px
 }
 .hero-content{
@@ -107,4 +107,36 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+@media (max-width: 768px){
+    .hero{
+        display: flex;     
+        flex-direction: column;        
+    }
+    .hero-social{
+        display: flex;
+        gap: 50px;
+        flex-direction: row; 
+    }
+    .hero img{
+        width: 200px;
+        height: 200px;
+    }
+    .hero-content h1{
+        font-size: 40px;
+        width: 90%;
+    }
+    .hero-content p{
+        width: 60%;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .hero-connect{
+        padding: 20px 35px; 
+        font-size: 18px;
+    }
+    .hero-resume{
+        padding: 20px 50px; 
+        font-size: 18px;
+    }
 }
