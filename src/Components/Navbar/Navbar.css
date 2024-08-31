@@ -64,12 +64,12 @@ html {
 }
 @media(max-width: 768px){
     .navbar{
-        margin: 20px 50px;
+        margin: 20px 20px;
     }
     .nav-mob-open{
       display: block;
-      position: fixed;
-      right: 10px;
+      position: relative;
+      right: 0;
     }
     .nav-mob-close{
       display: block;
