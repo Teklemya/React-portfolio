@@ -118,8 +118,9 @@
         flex-direction: row; 
     }
     .hero img{
-        width: 200px;
-        height: 200px;
+        width: 260px;
+        margin-top: 30px;
+        margin-bottom: 50px;
     }
     .hero-content h1{
         font-size: 40px;
@@ -128,10 +129,17 @@
     .hero-content p{
         width: 60%;
         font-size: 18px;
-        line-height: 30px;
+        line-height: 32px;
+       
+    }
+    .hero-action{
+        gap: 16px;
+        margin-bottom: 30px;
+        font-weight: 500;
+        font-size: 18px;
     }
     .hero-connect{
-        padding: 20px 35px; 
+        padding: 20px 30px; 
         font-size: 18px;
     }
     .hero-resume{
@@ -139,6 +147,7 @@
         font-size: 18px;
     }
     .hero-social-right{
-        padding: 20px
+        margin-right: 0;
+        padding: 20px;
     }
 }
