@@ -105,6 +105,30 @@
     background-color: white;
     transform: translate(6px, -7px);
 }
+@media (max-width: 1028px){
+    .qualification-section{
+        margin: 50px 70px;
+        gap: 40px;
+        align-items: start;
+        
+    }
+    .qualification-title h1{
+        font-size: 50px;
+        padding: 0;
+      
+    }
+    .qualification-title img{
+        width: 130px;
+        right: -20px;
+    }
+    .qualification-sections{
+        grid-template-columns: 1fr;
+    }
+    .qualification-buttons{
+        
+        gap: 20px;
+    }
+}
 @media(max-width: 768px){
    .qualification-section{
        margin: 50px 50px;
