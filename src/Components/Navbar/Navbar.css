@@ -5,7 +5,8 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 170px;
+    margin: 20px 60px;
+    gap: 100px;
     
 }
 .nav-menu{
