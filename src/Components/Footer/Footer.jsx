@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-top">
             <div className="footer-top-left">
                 <img src={logo} alt="" />
-                <p>I&apos;m a frontend developer with 3 years of experience in multiple companies like UCHealth, LDDL and OrangeIsBetter.</p>
+                {/* <p>I&apos;m a frontend developer with 3 years of experience in multiple companies like UCHealth, LDDL and OrangeIsBetter.</p> */}
             </div>
             <div className="footer-top-right">
                 <div className="footer-email-input">
@@ -20,6 +20,7 @@ const Footer = () => {
         </div>
       <hr />
       <div className="footer-bottom">
+        
         <p className="footer-bottom-left">
             &copy; 2024 Yishak Teklemariam. All rights reserved.
         </p>
@@ -28,6 +29,7 @@ const Footer = () => {
             <p>Privacy Policy</p>
             <p>Connect with me</p>
         </div>
+
       </div>
     </div>
   )

@@ -26,7 +26,7 @@ const Navbar = () => {
         <li><AnchorLink offset={50} href='#about'><p>About</p></AnchorLink></li>
         <li><AnchorLink offset={50} href='#qualification'><p>Experinces</p></AnchorLink></li>
         <li><AnchorLink offset={50} href='#mywork'><p>Projects</p></AnchorLink></li>
-        <li><AnchorLink offset={50}  href='#footer'><p>Contacts</p></AnchorLink></li>
+        <li><AnchorLink offset={50}  href='#contact'><p>Contacts</p></AnchorLink></li>
       </ul>
       {/* <div className="nav-connect">Connect with me</div> */}
     </div>

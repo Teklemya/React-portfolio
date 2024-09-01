@@ -75,8 +75,11 @@
     background-color: #32323c;
     color: #A0A0A0;
     font-family: outfit;
-    font-size: 20px;
+    font-size: 20px; 
+    -webkit-text-fill-color: #A0A0A0 !important; 
+    transition: background-color 5000s ease-in-out 0s;
 }
+
 .contact-right textarea{
     width: 550px;
     border: none;
