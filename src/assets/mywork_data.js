@@ -1,6 +1,6 @@
 import UCLIMS from '../assets/UCLIMS.png'
 import UCCOM from '../assets/UC_COM.jpg'
-import orangeisbetter from '../assets/OrangeIsBetter.png'
+import orangeisbetter from '../assets/Orange.png'
 import project4_img from '../assets/project_4.svg'
 import project5_img from '../assets/project_5.svg'
 import project6_img from '../assets/project_6.svg'
