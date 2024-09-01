@@ -27,7 +27,8 @@ const mywork_data = [
     {
         w_no:4,
         w_name:"Web design",
-        w_img:portfolio
+        w_img:portfolio,
+        w_link:"https://isaacportfolio.tech/"
     },
     {
         w_no:5,
