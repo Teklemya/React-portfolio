@@ -15,12 +15,12 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              I am a frontend developer based in Cincinnati, Ohio. I specialize in creating interactive expriences for the web. I have 3 years of experience in multiple companies like UCHealth, LDDL and OrangeIsBetter.
+              I am a full stack developer based in Cincinnati, Ohio. I specialize in creating interactive expriences for the web. I have 3 years of experience in multiple companies like UCHealth, LDDL and OrangeIsBetter.
             </p>
             
           </div>
           <div className="about-skills">
-            <div className="about-skill"><p>React JS</p><hr className="react-hr" style={{width:"85%"}} /></div>
+            <div className="about-skill"><p>JavaScript</p><hr className="react-hr" style={{width:"85%"}} /></div>
             <div className="about-skill"><p>Java</p><hr className="java-hr" style={{width:"60%"}} /></div>
             <div className="about-skill"><p>Python</p><hr className="python-hr" style={{width:"70%"}} /></div>
             <div className="about-skill"><p>R</p><hr className="r-hr" style={{width:"80%"}} /></div>
