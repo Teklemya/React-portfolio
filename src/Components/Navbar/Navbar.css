@@ -65,12 +65,13 @@ html {
 }
 @media(max-width: 768px){
     .navbar{
-        margin: 20px 20px;
+        margin: 20px 20px !important;
     }
     .nav-mob-open{
       display: block;
       position: fixed;
-      right: 0;
+      right: 10px;
+      opacity: calc(100% - 50%);
     }
     .nav-mob-close{
       display: block;
