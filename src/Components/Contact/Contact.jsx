@@ -41,15 +41,21 @@ const Contact = () => {
                     <div className="contact-details">
                         <div className="contact-detail">
                             <img src={mail_icon} alt="Mail" />
+                            <a href="mailto:teklemya@mail.uc.edu">
                             <p>teklemya@mail.uc.edu</p>
+                            </a>
                         </div>
                         <div className="contact-detail">
                             <img src={call_icon} alt="Call" />
+                            <a href="tel:+15135000630">
                             <p>+1 513-500-0630</p>
+                            </a>
                         </div>
                         <div className="contact-detail">
                             <img src={location_icon} alt="Location" />
+                            <a href="https://www.google.com/maps?q=Cincinnati,+Ohio" target="_blank" rel="noopener noreferrer">
                             <p>Cincinnati, Ohio</p>
+                            </a>
                         </div>
                     </div>
             </div>
