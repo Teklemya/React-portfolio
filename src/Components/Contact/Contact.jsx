@@ -42,7 +42,7 @@ const Contact = () => {
                         <div className="contact-detail">
                             <img src={mail_icon} alt="Mail" />
                             <a href="mailto:teklemya@mail.uc.edu">
-                            <p>teklemya@mail.uc.edu</p>
+                            <p>teklemya@mail.uc.edu | isaacreactportfolio@gmail.com</p>
                             </a>
                         </div>
                         <div className="contact-detail">

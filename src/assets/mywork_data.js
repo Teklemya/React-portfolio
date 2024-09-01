@@ -1,7 +1,7 @@
 import UCLIMS from '../assets/UCLIMS.png'
 import UCCOM from '../assets/UC_COM.jpg'
 import orangeisbetter from '../assets/Orange.png'
-import project4_img from '../assets/project_4.svg'
+import portfolio from '../assets/portfolio.png'
 import project5_img from '../assets/project_5.svg'
 import project6_img from '../assets/project_6.svg'
 
@@ -27,7 +27,7 @@ const mywork_data = [
     {
         w_no:4,
         w_name:"Web design",
-        w_img:project4_img
+        w_img:portfolio
     },
     {
         w_no:5,
