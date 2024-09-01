@@ -13,7 +13,11 @@ const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
+      const serviceId = import.meta.env.VITE_SERVICE_ID;
+    const templateId = import.meta.env.VITE_TEMPLATE_ID;
+    const userId = import.meta.env.VITE_USER_ID; 
+
+      emailjs.sendForm(serviceId, templateId, form.current, userId)
         .then((result) => {
             console.log(result.text);
             alert("Message sent successfully!");
