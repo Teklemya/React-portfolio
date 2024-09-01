@@ -5,8 +5,7 @@
     gap: 30px;
 }
 .footer-top{
-    display: flex;
-    justify-content: space-between;
+    display: none;
 }
 .footer-top-left{
     display: flex;
