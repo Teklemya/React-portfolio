@@ -28,7 +28,7 @@
 }
 .mywork-container img{
     box-sizing: border-box;
-   
+    object-fit: cover; 
     width: 419px;
     height: 280px;
     border-radius: 20px;
