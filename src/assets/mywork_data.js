@@ -26,14 +26,18 @@ const mywork_data = [
         w_no:3,
         w_name:"OrangeIsBetter",
         w_img:orangeisbetter,
-        w_link:"https://orangeisbetter.com/"
-        
+        w_link:"https://orangeisbetter.com/",
+        w_description: "OrangeIsBetter is a digital marketing agency that helps businesses grow online. We offer a wide range of services including web design, SEO, social media marketing, and more. Our team of experts will work with you to create a custom strategy that fits your needs and goals. We are committed to providing the best service possible and will work with you every step of the way to ensure your success.",
+        w_tech: "Python, Django, JavaScript, Bootstrap, HTML, CSS,"
+
     },
     {
         w_no:4,
         w_name:"Web design",
         w_img:portfolio,
-        w_link:"https://isaacportfolio.tech/"
+        w_link:"https://isaacportfolio.tech/",
+        w_description: "Personal portfolio showcasing various web development projects, including front-end and back-end technologies.",
+        w_tech: "HTML, CSS, JavaScript, React, Node.js"
     },
     {
         w_no:5,
