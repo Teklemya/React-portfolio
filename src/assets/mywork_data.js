@@ -18,13 +18,16 @@ const mywork_data = [
         w_no:2,
         w_name:"COM UC",
         w_img:UCCOM,
-        w_link:"https://med.uc.edu/"
+        w_link:"https://med.uc.edu/",
+        w_description: "The College of Medicine (COM) at UC provides resources and information about medical education, research, and clinical care.",
+        w_tech: "Sitefinity, HTML, CSS, JavaScript"
     },
     {
         w_no:3,
         w_name:"OrangeIsBetter",
         w_img:orangeisbetter,
         w_link:"https://orangeisbetter.com/"
+        
     },
     {
         w_no:4,
