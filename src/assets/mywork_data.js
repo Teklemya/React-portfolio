@@ -10,7 +10,9 @@ const mywork_data = [
         w_no:1,
         w_name:"UCLIMS",
         w_img:UCLIMS,
-        w_link:"https://uclims.uc.edu/"
+        w_link:"https://uclims.uc.edu/",
+        w_description: "UCLIMS is a Laboratory Information Management System (LIMS) that is used to manage the workflow of a laboratory. It is a web-based application that is used to track samples, manage data, and automate laboratory processes. We main focus on Mice and Human samples. The system is designed to be user-friendly and easy to use. It is a secure system that is compliant with HIPAA and other regulations. The system is designed to be scalable and can be customized to meet the needs of any laboratory. We put out the best data analysis and visualization tools to help researchers make sense of their data.",
+        w_tech: ".NET, C#, Blazor, SQL Server, Azure, R"
     },
     {
         w_no:2,
