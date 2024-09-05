@@ -3,6 +3,7 @@
     align-items: center;
     flex-direction: row;
     justify-content: center; 
+    position: relative; /* Allow positioning of child elements */
 }
 .hero-social{
     display: flex;
@@ -14,7 +15,12 @@
     color: #fff; 
   }
 .hero-social-right{
-    margin-right: 50px; 
+    position: absolute;
+    display: flex;
+    gap: 25px;
+    right: 0;
+    margin-right: 10px;
+    bottom: 90px; 
     padding: 20px
 }
 .hero-content{
@@ -22,6 +28,7 @@
     text-align: center; 
     justify-content: center;
     flex-direction: column;
+    position: relative; /* Allow positioning of child elements */
 }
 
 .hero-content img{
@@ -127,8 +134,13 @@
         font-size: 20px;
     }
     .hero-social-right{
+        display: flex;
+        gap: 20px;
+        position: absolute;
+        bottom: 70px;
         margin-right: 20px; 
-        padding: 20px
+        padding: 20px;
+        
     }
     
 }
@@ -159,7 +171,6 @@
     }
     .hero-action{
         gap: 16px;
-        margin-bottom: 30px;
         font-weight: 500;
         font-size: 18px;
     }
@@ -172,8 +183,10 @@
         font-size: 18px;
     }
     .hero-social-right{
-        margin-right: 0px;
+        position: relative;
         padding: 20px;
+        bottom: 0;
+        margin-right: 0;
     }
 }
 @media (max-width: 480px){
