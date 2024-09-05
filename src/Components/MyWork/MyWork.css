@@ -20,26 +20,6 @@
     right: 0;
     z-index: -1;
 }
-/* .mywork-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
-    transition: all 0.4s ease; 
-}
-.mywork-container img{
-    box-sizing: border-box;
-    object-fit: cover; 
-    width: 419px;
-    height: 280px;
-    border-radius: 20px;
-    cursor: pointer;
-}
-.mywork-container img:hover{
-    transform: scale(1.10); 
-    border: 3px solid #ff00ff;
-    transition: 0.3s;
-    border-radius: 20px; 
-} */
  .mywork-container{    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 60px;
