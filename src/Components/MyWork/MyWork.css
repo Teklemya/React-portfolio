@@ -47,6 +47,7 @@
 /* Overlay container */
 .image-container {
     width: 100%;
+    height: auto;
     aspect-ratio: 16 / 9; /* Adjust ratio as needed */
     position: relative;
 }
@@ -72,6 +73,7 @@
     gap: 10px;
     box-sizing: border-box;
     overflow: hidden;
+    max-height: 100%;
 }
 
 .image-container:hover .overlay {
@@ -79,21 +81,22 @@
 }
 
 .description {
-    font-size: 14px;
+    font-size: clamp(12px, 2vw, 14px);
     line-height: 1.4;
     text-align: center;
     word-wrap: break-word; /* Prevents long words from overflowing */
     white-space: normal;   /* Allow text to wrap normally */
-    overflow: hidden;      /* Hide overflow */
-    text-overflow: ellipsis; /* Add '...' when the text is too long */
-    max-height: 100px; 
+    overflow: visible; /* Remove overflow restrictions */
+    max-height: 200px; /* Adjust this if needed */
+    margin-bottom: 10px; /* Add spacing below the description */
+    
 }
 
 .tech-stack {
-    font-size: 12px;
+    font-size: clamp(10px, 1.5vw, 12px);
     color: #ff00ff; /* Match the hover border color */
     text-align: center;
-    
+    padding: 10px 15px; /* Add padding */
 }
 .mywork-showmore{
     display: flex;
@@ -135,11 +138,15 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
- @media screen and (max-width: 1024px){
+
+@media screen and (max-width: 1024px){
     .mywork{
         margin: 0px 70px !important;
+        gap: 40px;
+        align-items: start !important;
     }
     .mywork-title h1{
+        padding: 0;
         font-size: 80px;
     }
     .mywork-title img{
@@ -162,6 +169,14 @@
         width: 100%;
         height: 100%; /* Adjust height if needed */
     }
+    .description {
+        font-size: 12px; /* More aggressive shrinking */
+        max-height: 117px; /* Adjust height if needed */
+        margin-bottom: 0;
+    }
+    .tech-stack {
+        font-size: clamp(9px, 2.5vw, 12px);
+    }
     .mywork-showmore{
         padding: 20px 40px;
         font-size: 20px;
@@ -170,8 +185,8 @@
         padding: 20px 40px;
         font-size: 20px;
     }
-} 
-@media screen and (max-width: 768px){
+}
+@media screen and (max-width: 767px){
     .mywork{
         margin: 0px 50px !important;
         gap: 40px;
@@ -202,6 +217,14 @@
     .overlay {
         width: 100%;
         height: 100%; /* Adjust height if needed */
+        padding: 15px;
+    }
+    .description {
+        font-size: 14px; /* More aggressive shrinking */
+        max-height: 100px; /* Adjust height if needed */
+    }
+    .tech-stack {
+        font-size: clamp(9px, 2.5vw, 12px);
     }
     .mywork-showmore{
         padding: 20px 40px;
@@ -290,6 +313,14 @@
         width: 100%;
         height: 100%; /* Adjust height if needed */
     }
+    .description {
+        font-size: 12px; /* More aggressive shrinking */
+        max-height: 110px; /* Adjust height if needed */
+        margin-bottom: 0;
+    }
+    .tech-stack {
+        font-size: clamp(8px, 3vw, 10px);
+    }
     .mywork-showmore{
         padding: 20px 40px;
         font-size: 20px;
@@ -332,6 +363,14 @@
     .overlay {
         width: 100%;
         height: 100%; /* Adjust height if needed */
+    }
+    .description {
+        font-size: 12px; /* More aggressive shrinking */
+        max-height: 120px; /* Adjust height if needed */
+        margin-bottom: 0;
+    }
+    .tech-stack {
+        font-size: clamp(8px, 3vw, 10px);
     }
     .mywork-showmore{
         padding: 20px 40px;
