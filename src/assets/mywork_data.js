@@ -27,8 +27,8 @@ const mywork_data = [
         w_name:"OrangeIsBetter",
         w_img:orangeisbetter,
         w_link:"https://orangeisbetter.com/",
-        w_description: "OrangeIsBetter connects businesses with a wide range of experts, from digital marketers to web designers and software developers. Our platform helps you find the right professionals for your needs, ensuring tailored strategies and expert guidance for your success.",
-        w_tech: "Python, Django, JavaScript, Bootstrap, HTML, CSS"
+        w_description: "OrangeIsBetter connects businesses with experts, from marketers to web designers and developers, providing tailored strategies and expert guidance for success.",
+        w_tech: "Python, Django, JavaScript, Bootstrap, CSS"
 
     },
     {
