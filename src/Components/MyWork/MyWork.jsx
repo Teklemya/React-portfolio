@@ -20,6 +20,14 @@ const MyWork = () => {
   const handleShowLess = () => {
     setVisibleProjects(INITIAL_PROJECTS);
   };
+  const handleMouseEnter = (index) => {
+    document.getElementById(`overlay-${index}`).classList.add("show");
+  };
+  
+  const handleMouseLeave = (index) => {
+    document.getElementById(`overlay-${index}`).classList.remove("show");
+  };
+  
 
   return (
     <div id="mywork" className="mywork">
@@ -28,12 +36,25 @@ const MyWork = () => {
         <img src={theme_pattern} alt="theme pattern" />
       </div>
       <div className="mywork-container">
-        {mywork_data.slice(0, visibleProjects).map((work, index) => (
-          <a key={index} href={work.w_link} target="_blank" rel="noopener noreferrer">
-            <img src={work.w_img} alt={work.w_name} />
-          </a>
-        ))}
-      </div>
+  {mywork_data.slice(0, visibleProjects).map((work, index) => (
+    <div
+      key={index}
+      className="work-item"
+      onMouseEnter={() => handleMouseEnter(index)}
+      onMouseLeave={() => handleMouseLeave(index)}
+    >
+      <a href={work.w_link} target="_blank" rel="noopener noreferrer">
+        <div className="image-container">
+          <img src={work.w_img} alt={work.w_name} />
+          <div id={`overlay-${index}`} className="overlay">
+            <p className="description">{work.w_description}</p>
+            <p className="tech-stack">{work.w_tech}</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  ))}
+</div>
       
       {/* Conditional rendering for "Show more" and "Show less" buttons */}
       <div className="mywork-buttons">
