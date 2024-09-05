@@ -19,7 +19,7 @@ const mywork_data = [
         w_name:"COM UC",
         w_img:UCCOM,
         w_link:"https://med.uc.edu/",
-        w_description: "The College of Medicine (COM) at UC provides resources and information about medical education, research, and clinical care.",
+        w_description: "The College of Medicine (COM) website at UC offers valuable resources and information on medical education, research, and clinical care. It features details about academic programs, research initiatives, and clinical practices, providing a comprehensive overview for students, researchers, and healthcare professionals.",
         w_tech: "Sitefinity, HTML, CSS, JavaScript"
     },
     {
@@ -27,7 +27,7 @@ const mywork_data = [
         w_name:"OrangeIsBetter",
         w_img:orangeisbetter,
         w_link:"https://orangeisbetter.com/",
-        w_description: "OrangeIsBetter is a digital marketing agency that helps businesses grow online. We offer a wide range of services including web design, SEO, social media marketing, and more. Our team of experts will work with you to create a custom strategy that fits your needs and goals. We are committed to providing the best service possible and will work with you every step of the way to ensure your success.",
+        w_description: "OrangeIsBetter connects businesses with a wide range of experts, from digital marketers to web designers and software developers. Our platform helps you find the right professionals for your needs, ensuring tailored strategies and expert guidance for your success.",
         w_tech: "Python, Django, JavaScript, Bootstrap, HTML, CSS"
 
     },
