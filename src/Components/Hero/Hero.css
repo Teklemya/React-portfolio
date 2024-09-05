@@ -151,7 +151,7 @@
     }
     .hero-social{
         display: flex;
-        gap: 50px;
+        gap: 70px;
         flex-direction: row; 
     }
     .hero img{
