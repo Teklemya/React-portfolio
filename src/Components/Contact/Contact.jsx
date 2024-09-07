@@ -1,5 +1,6 @@
 import theme_pattern from "../../assets/theme_pattern.svg"
 import "./Contact.css"
+import BibleVerse from "../BibleVerse/BibleVerse"
 import mail_icon from "../../assets/mail_icon.svg"
 import location_icon from "../../assets/location_icon.svg"
 import call_icon from "../../assets/call_icon.svg"
@@ -68,7 +69,11 @@ const Contact = () => {
                 <textarea name="message" rows="8" placeholder="Write your message here"></textarea>
                 <button type='submit' className="contact-submit">Submit now</button>
             </form>
-        </div>
+           
+        </div> 
+        <div className="contact-bottom">
+                <BibleVerse />
+            </div>
     </div>
   )
 }
