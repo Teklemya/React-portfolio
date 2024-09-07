@@ -56,6 +56,9 @@
     gap: 20px;
     align-items: center;
 }
+.contact-detail img{
+    width: 30px;
+}
 .contact-detail a{
     text-decoration: none;
     color: #D8D8D8;
@@ -140,6 +143,9 @@
         font-size: 20px;
         line-height: 35px;
     }
+    .contact-detail img{
+        width: 25px;
+    }
     .contact-right input{
         width: 350px;
         font-size: 20px;
@@ -178,7 +184,7 @@
         font-size: 18px;
     }
     .contact-detail img{
-        width: 25px;
+        width: 23px;
     }
     .contact-right label{
         font-size: 20px;
