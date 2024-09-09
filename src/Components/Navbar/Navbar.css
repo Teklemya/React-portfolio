@@ -72,6 +72,7 @@ html {
       position: fixed;
       right: 10px;
       opacity: calc(100% - 50%);
+      z-index: 2;
     }
     .nav-mob-close{
       display: block;
