@@ -37,7 +37,7 @@ const Hero = () => {
       <div className="hero-content">
         <img src={profile_img} alt="Profile" />
         <h1>
-          <span>{translatedName} here,</span> Full stack developer based in Cincinnati, Ohio. {/*make sure to change && to || in the condition */} 
+          <span>{translatedName} here,</span> Full stack developer based in the US. {/*make sure to change && to || in the condition */} 
         </h1> 
         <p>
           I specialize in creating interactive expriences for the web. I have 2
