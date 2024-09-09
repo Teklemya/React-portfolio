@@ -40,7 +40,7 @@ const Hero = () => {
           <span>{translatedName} here,</span> Full stack developer based in Cincinnati, Ohio. {/*make sure to change && to || in the condition */} 
         </h1> 
         <p>
-          I specialize in creating interactive expriences for the web. I have 3
+          I specialize in creating interactive expriences for the web. I have 2
           years of experience in multiple companies like UCHealth, LDDL and OrangeIsBetter.
         </p>
         <div className="hero-action">
