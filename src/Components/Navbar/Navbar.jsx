@@ -1,7 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useRef } from 'react'
 import './Navbar.css'
+// eslint-disable-next-line no-unused-vars
 import logo from '../../assets/logo.jpg'
+import theme_pattern from "../../assets/theme_pattern.svg";
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import menu_open from '../../assets/menu_open.svg'
 import menu_close from '../../assets/menu_close.svg'
@@ -17,7 +19,11 @@ const Navbar = () => {
   }
   return (
     <div className='navbar'>
-      <img src={logo} alt="" />
+      {/* <img src={logo} alt="" /> */}
+      <div  className="nav-logo">
+        <h1>ይስሀቅ</h1>
+        <img src={theme_pattern} alt="" />
+      </div>
       <img src={menu_open} onClick={openMenu} alt="side bar humburger" className="nav-mob-open" />
 
       <ul ref={menuRef} className='nav-menu'>
