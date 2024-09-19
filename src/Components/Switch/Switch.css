@@ -1,5 +1,5 @@
 .theme-switch {
-    --toggle-size: 20px; /* Decreased toggle size */
+    --toggle-size: 16px; /* Decreased toggle size */
     --container-width: 4em; /* Reduced width */
     --container-height: 1.75em; /* Reduced height */
     --container-radius: 3.5em; /* Adjusted border-radius for a rounder look */
@@ -18,9 +18,8 @@
     --circle-transition: .3s cubic-bezier(0, -0.02, 0.35, 1.17);
     display: block;
     position: fixed;
-    right: 10px;
+    right: 40px;
     opacity: calc(100% - 50%);
-    z-index: 2;
 }
 
   .theme-switch, .theme-switch *, .theme-switch *::before, .theme-switch *::after {
@@ -44,6 +43,9 @@
     -o-transition: var(--transition);
     transition: var(--transition);
     position: relative;
+  }
+  .theme-switch__container.hidden{
+    opacity: 0;
   }
   
   .theme-switch__container::before {
@@ -200,4 +202,13 @@
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+  }
+  @media screen and (max-width: 768px) {
+    .theme-switch {
+      --toggle-size: 14px; /* Decrease toggle size */
+      --container-width: 3.5em; /* Reduced width */
+      --container-height: 1.5em; /* Reduced height */
+      --container-radius: 3.0em; /* Adjust radius for a smaller look */
+      right: 10px;
+    }
   }

@@ -120,5 +120,13 @@ html {
 
     }
 }
-
+@media screen and (max-width: 480px){
+  .nav-logo h1{
+    font-size: 40px;
+    padding: 0;
+  }
+  .nav-logo img{
+    width: 100px;
+  }
+}
 
