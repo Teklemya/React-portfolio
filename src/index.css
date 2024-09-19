@@ -13,8 +13,10 @@ body{
     font-family: 'outfit', sans-serif, 'Arial', 'Helvetica', 'Cairo';
     transition: all 0.4s ease; /* Add smooth transition */
 }
-.dark-mode{
-    background: #161513;
-    color: #fff;
+.light-mode{
+    background: #fff;
+    color: #000 !important;
 }
-
+body.light-mode p, body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6{
+    color: #000 !important;
+}

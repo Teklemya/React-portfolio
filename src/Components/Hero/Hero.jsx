@@ -1,9 +1,15 @@
+/* eslint-disable no-unused-vars */
 import { useState, useEffect } from 'react';
 import "./Hero.css";
 import profile_img from "/src/assets/izak_profile1.jpg";
 import resume from "/src/assets/resume.pdf";
+import Switch from '/src/Components/Switch/Switch.jsx';
+import DarkMode from '/src/Components/DarkMode/DarkMode.jsx';
 import Social from "/src/Components/Social/Social.jsx";
 import { getTranslation } from '/src/Js/Translation.js'; // Import the translation function
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+import { faSun, faMoon} from '@fortawesome/free-solid-svg-icons';
+
 
 const Hero = () => {
   const [translatedName, setTranslatedName] = useState('Isaac'); // Start with English name
@@ -31,10 +37,34 @@ const Hero = () => {
     return () => clearInterval(intervalId);
   }, [currentLangIndex, setTranslatedName]); 
 
+  const [isLightMode, setIsLightMode] = useState(false);
+
+  const toggleLightMode = () => {
+    setIsLightMode(prevMode => !prevMode);
+  };
+
+  useEffect(() => {
+    // Ensure that document.body and its classList exist
+    if (document && document.body && document.body.classList) {
+      if (isLightMode) {
+        document.body.classList.add('light-mode');
+      } else {
+        document.body.classList.remove('light-mode');
+      }
+    }
+  }, [isLightMode]);
+
   return (
     <div id='home' className="hero">
       
       <div className="hero-content">
+      <div className="light-dark">
+        {/* <button onClick={toggleLightMode}>
+        {isLightMode ? <FontAwesomeIcon className="moon" icon={faMoon} />: <FontAwesomeIcon className="sun" icon={faSun} />}
+        </button> */}
+      </div> 
+         {/* <DarkMode /> */}
+      <Switch /> 
         <img src={profile_img} alt="Profile" />
         <h1>
           <span>{translatedName} here,</span> Full stack developer based in the US. {/*make sure to change && to || in the condition */} 
