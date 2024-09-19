@@ -9,6 +9,23 @@ html {
     gap: 60px;
     
 }
+.nav-logo{
+  position: relative;
+}
+.nav-logo h1{
+  font-size: 50px;
+  font-weight: 600;
+  padding: 0;
+  position: relative;
+  margin-top: 15px;
+}
+.nav-logo img{
+  width: 120px;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  right: -20px !important;
+}
 .nav-menu{
     display: flex;
     align-items: center;
@@ -103,3 +120,5 @@ html {
 
     }
 }
+
+
