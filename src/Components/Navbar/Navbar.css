@@ -129,4 +129,12 @@ html {
     width: 100px;
   }
 }
-
+@media screen and (max-width: 320px){
+  .nav-logo h1{
+    font-size: 30px;
+    padding: 0;
+  }
+  .nav-logo img{
+    width: 80px;
+  }
+}
