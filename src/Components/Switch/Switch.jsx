@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
+import { useState, useEffect } from 'react';
 import "./Switch.css";
 
 const Switch = () => {
@@ -19,7 +20,24 @@ function toggleContainerVisibility() {
 // Attach the scroll event
 window.addEventListener('scroll', toggleContainerVisibility);
 
+const [isLightMode, setIsLightMode] = useState(false);
 
+  // eslint-disable-next-line no-unused-vars
+  const toggleLightMode = () => {
+    setIsLightMode(prevMode => !prevMode);
+  };
+
+  useEffect(() => {
+    // Ensure that document.body and its classList exist
+    if (document && document.body && document.body.classList) {
+      if (isLightMode) {
+        document.body.classList.add('light-mode');
+      } else {
+        document.body.classList.remove('light-mode');
+      }
+    }
+  }, [isLightMode]);
+  
   return (
     <label className="theme-switch">
       <input type="checkbox" className="theme-switch__checkbox" />
