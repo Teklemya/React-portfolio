@@ -64,7 +64,7 @@ const Hero = () => {
         </button> */}
       </div> 
          {/* <DarkMode /> */}
-      {/* <Switch />  */}
+      <Switch /> 
         <img src={profile_img} alt="Profile" />
         <h1>
           <span>{translatedName} here,</span> Full stack developer based in the US. {/*make sure to change && to || in the condition */} 
