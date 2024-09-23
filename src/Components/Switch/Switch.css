@@ -161,7 +161,8 @@
   .theme-switch__stars-container {
     position: absolute;
     color: var(--stars-color);
-    top: -100%;
+    top: 50%;
+    transform: translateY(-50%);
     left: 0.312em;
     width: 2.75em;
     height: auto;
