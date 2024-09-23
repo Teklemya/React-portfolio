@@ -111,14 +111,6 @@
     font-size: 22px;
     cursor: pointer;
 }
-.light-dark{
-    display: block;
-    position: fixed;
-    right: 10px;
-    opacity: calc(100% - 50%);
-    z-index: 2;
-    background: inherit; /* Inherits the background from body */
-  }
 .hero-resume a{
     text-decoration: none;
     color: #fff;
@@ -136,7 +128,14 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.light-dark{
+    display: block;
+    position: fixed;
+    right: 10px;
+    opacity: calc(100% - 50%);
+    z-index: 2;
+    background: inherit; /* Inherits the background from body */
+  }
 @media screen and (max-width: 1024px){
     .hero-content h1{
         font-size: 50px;
