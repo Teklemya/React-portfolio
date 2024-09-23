@@ -5,12 +5,17 @@
 Hello there!
 I’m Yishak Teklemariam ( اسحق ), a passionate Full Stack Developer based in Cincinnati, Ohio, with a strong focus on creating interactive experiences for the web. I bring over 2 years of experience working with companies like UCHealth, LDDL, and OrangeIsBetter, solving complex problems and delivering top-notch solutions for web and software development projects.
 
+<hr>
+
 🌍 Portfolio Overview
 Home
 About Me
 Experience
 Projects
 Contact Me
+
+<hr>
+<br>
 🧑‍💻 About Me
 I specialize in building scalable, responsive, and interactive web applications. With experience ranging from front-end development to back-end engineering, I’ve honed skills across multiple programming languages and frameworks.
 
@@ -18,11 +23,15 @@ Key Skills:
 
 Languages: JavaScript, Python, R, Java, C#
 Technologies: React.js, Django, .NET, Blazor, SQL Server, Azure
-📊 Quick Stats
+📊 Quick Stats <br>
 2+ years of professional experience
 30+ completed projects
 15+ programming languages mastered
+
+<hr>
+<br>
 🎓 Qualifications
+<br>
 Education:
 Bachelors In Technology, Software Development - University of Cincinnati
 Aug 2022 - Apr 2027
@@ -32,7 +41,7 @@ Aug 2022 - Apr 2027
 
 Masters In Technology, Information Technology - University of Cincinnati
 Jan 2025 - Apr 2027
-
+<br>
 Experience:
 Student Success Coach Co-op, CECH @ UC
 Aug 2024 - Present
@@ -49,6 +58,8 @@ Aug 2023 - Dec 2023
 Frontend Developer Intern, COM IT @ UC
 Feb 2023 - Aug 2023
 
+<hr>
+<br>
 🔧 My Latest Work
 UCLIMS
 A Laboratory Information Management System (LIMS) designed to manage lab workflows with a focus on data analysis and visualization.
@@ -70,13 +81,16 @@ Showcasing web development projects using full-stack technologies.
 
 Technologies: JavaScript, React, Node.js, HTML, CSS
 
+<hr>
+<br>
 📬 Contact Me
+<br>
 I’m actively seeking a Summer 2025 Internship. Feel free to reach out!
 
-Email: teklemya@mail.uc.edu | isaacreactportfolio@gmail.com
-Phone: +1 513-500-0630
-Location: Cincinnati, Ohio
-📝 Quote
+Email: teklemya@mail.uc.edu | isaacreactportfolio@gmail.com <br>
+Phone: +1 513-500-0630<br>
+Location: Cincinnati, Ohio<br>
+📝 Quote <br>
 "The fear of Yahweh is the beginning of knowledge; but the foolish despise wisdom and instruction." — Proverbs 1:7
 
 © 2024 Yishak Teklemariam. All rights reserved.
