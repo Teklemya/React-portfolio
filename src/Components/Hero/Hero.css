@@ -95,7 +95,7 @@
 .hero-connect{
     padding: 25px 45px; 
     border-radius: 50px;
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    border: 2px solid #fff;
     font-size: 22px;
     cursor: pointer;
     transition: all 0.5s ease;
@@ -108,6 +108,7 @@
     padding: 25px 75px; 
     border-radius: 50px;
     border: 2px solid #fff;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
     font-size: 22px;
     cursor: pointer;
 }
@@ -123,7 +124,7 @@
     text-decoration: none;
     color: #fff;
 }
-.hero-connect:hover{
+.hero-resume:hover{
     border: 2px solid #fff;
 }
 .hero-resume:hover{
