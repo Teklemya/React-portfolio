@@ -44,3 +44,9 @@ body.light-mode .qualification-line{
 body.light-mode .hero-content img {
     box-shadow: 0 0 0 9px rgba(160, 160, 160, 0.5); /* Soft Gray for light mode */
 }
+body.light-mode .description{
+    color: white !important;
+}
+body.light-mode .tech-stack{
+    color: #ff00ff !important;
+}
