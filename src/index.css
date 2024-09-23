@@ -41,3 +41,6 @@ body.light-mode .qualification-round{
 }
 body.light-mode .qualification-line{
     background-color: #000 !important;}
+body.light-mode .hero-content img {
+    box-shadow: 0 0 0 9px rgba(160, 160, 160, 0.5); /* Soft Gray for light mode */
+}
