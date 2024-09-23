@@ -104,6 +104,12 @@
     text-decoration: none;
     color: #fff;
 }
+.hero-connect:hover{ 
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .hero-resume{
     padding: 25px 75px; 
     border-radius: 50px;
@@ -115,17 +121,10 @@
     text-decoration: none;
     color: #fff;
 }
-.hero-connect:hover{ 
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 .hero-resume:hover{
     border: 2px solid #fff; 
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
     background-clip: text;
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .light-dark{
