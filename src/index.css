@@ -20,3 +20,6 @@ body{
 body.light-mode p, body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6{
     color: #000 !important;
 }
+body.light-mode .home-social-icon .light-mode{
+    color:#000 !important;
+}
