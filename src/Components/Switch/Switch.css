@@ -199,7 +199,7 @@
   }
   
   .theme-switch__checkbox:checked + .theme-switch__container .theme-switch__clouds {
-    bottom: -0.625em;
+    bottom: -0.5em;
   }
   
   .theme-switch__checkbox:checked + .theme-switch__container .theme-switch__stars-container {
