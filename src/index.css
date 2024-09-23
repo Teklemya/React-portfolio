@@ -23,3 +23,7 @@ body.light-mode p, body.light-mode h1, body.light-mode h2, body.light-mode h3, b
 body.light-mode .home-social-icon{
     color:#000 !important;
 }
+body.light-mode .hero-connect a{
+    text-decoration: none;
+    color: #000000;
+}
