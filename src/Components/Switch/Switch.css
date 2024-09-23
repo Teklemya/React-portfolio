@@ -19,7 +19,7 @@
     display: block;
     position: fixed;
     right: 40px;
-    opacity: calc(100% - 50%);
+    opacity: calc(100% );
 }
 
   .theme-switch, .theme-switch *, .theme-switch *::before, .theme-switch *::after {
