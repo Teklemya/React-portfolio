@@ -8,31 +8,32 @@ I’m Yishak Teklemariam ( اسحق ), a passionate Full Stack Developer based i
 <hr>
 
 🌍 Portfolio Overview
-Home
-About Me
-Experience
-Projects
-Contact Me
+Home<br>
+About Me<br>
+Experience<br>
+Projects<br>
+Contact Me<br>
 
 <hr>
 <br>
 🧑‍💻 About Me
+<br>
 I specialize in building scalable, responsive, and interactive web applications. With experience ranging from front-end development to back-end engineering, I’ve honed skills across multiple programming languages and frameworks.
 
 Key Skills:
 
 Languages: JavaScript, Python, R, Java, C#
-Technologies: React.js, Django, .NET, Blazor, SQL Server, Azure
+Technologies: React.js, Django, .NET, Blazor, SQL Server, Azure<br>
 📊 Quick Stats <br>
-2+ years of professional experience
-30+ completed projects
-15+ programming languages mastered
+2+ years of professional experience<br>
+30+ completed projects<br>
+15+ programming languages mastered<br>
 
 <hr>
 <br>
 🎓 Qualifications
 <br>
-Education:
+Education:<br>
 Bachelors In Technology, Software Development - University of Cincinnati
 Aug 2022 - Apr 2027
 
@@ -42,7 +43,7 @@ Aug 2022 - Apr 2027
 Masters In Technology, Information Technology - University of Cincinnati
 Jan 2025 - Apr 2027
 <br>
-Experience:
+Experience:<br>
 Student Success Coach Co-op, CECH @ UC
 Aug 2024 - Present
 
@@ -60,23 +61,23 @@ Feb 2023 - Aug 2023
 
 <hr>
 <br>
-🔧 My Latest Work
-UCLIMS
+🔧 My Latest Work<br>
+UCLIMS<br>
 A Laboratory Information Management System (LIMS) designed to manage lab workflows with a focus on data analysis and visualization.
 
 Technologies: .NET, C#, Blazor, SQL Server, Azure, R
 
-COM UC
+COM UC<br>
 The College of Medicine (COM) website offers valuable resources for medical education, research, and clinical care.
 
 Technologies: Sitefinity, HTML, CSS, JavaScript
 
-OrangeIsBetter
+OrangeIsBetter<br>
 A platform connecting businesses with experts in marketing, design, and development to drive tailored success strategies.
 
 Technologies: Python, Django, JavaScript, Bootstrap, CSS
 
-Personal Portfolio
+Personal Portfolio<br>
 Showcasing web development projects using full-stack technologies.
 
 Technologies: JavaScript, React, Node.js, HTML, CSS
