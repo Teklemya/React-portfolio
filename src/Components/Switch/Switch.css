@@ -181,9 +181,9 @@
     left: calc(100% - var(--circle-container-offset) - var(--circle-container-diameter));
   }
   
-  /* .theme-switch__checkbox:checked + .theme-switch__container .theme-switch__circle-container:hover {
+  .theme-switch__checkbox:checked + .theme-switch__container .theme-switch__circle-container:hover {
     left: calc(100% - var(--circle-container-offset) - var(--circle-container-diameter) - 0.187em)
-  } */
+  }
   
   .theme-switch__circle-container:hover {
     left: calc(var(--circle-container-offset) + 0.187em);
