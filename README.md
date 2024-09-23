@@ -1,6 +1,7 @@
 # React + JS based portfolio page
 
 ይስሀቅ | Yishak Teklemariam - Full Stack Developer
+
 Hello there!
 I’m Yishak Teklemariam ( اسحق ), a passionate Full Stack Developer based in Cincinnati, Ohio, with a strong focus on creating interactive experiences for the web. I bring over 2 years of experience working with companies like UCHealth, LDDL, and OrangeIsBetter, solving complex problems and delivering top-notch solutions for web and software development projects.
 
@@ -23,16 +24,13 @@ Technologies: React.js, Django, .NET, Blazor, SQL Server, Azure
 15+ programming languages mastered
 🎓 Qualifications
 Education:
-Bachelors In Technology
-Software Development - Univeristy of Cincinnati
+Bachelors In Technology, Software Development - University of Cincinnati
 Aug 2022 - Apr 2027
 
-Bachelors In Technology
-Cyber Security - Univeristy of Cincinnati
+Bachelors In Technology, Cyber Security - University of Cincinnati
 Aug 2022 - Apr 2027
 
-Masters In Technology
-Information Technology - Univeristy of Cincinnati
+Masters In Technology, Information Technology - University of Cincinnati
 Jan 2025 - Apr 2027
 
 Experience:
