@@ -23,6 +23,19 @@ Technologies: React.js, Django, .NET, Blazor, SQL Server, Azure
 15+ programming languages mastered
 🎓 Qualifications
 Education:
+Bachelors In Technology
+Software Development - Univeristy of Cincinnati
+Aug 2022 - Apr 2027
+
+Bachelors In Technology
+Cyber Security - Univeristy of Cincinnati
+Aug 2022 - Apr 2027
+
+Masters In Technology
+Information Technology - Univeristy of Cincinnati
+Jan 2025 - Apr 2027
+
+Experience:
 Student Success Coach Co-op, CECH @ UC
 Aug 2024 - Present
 
