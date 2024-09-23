@@ -33,7 +33,7 @@
   .theme-switch__container {
     width: var(--container-width);
     height: var(--container-height);
-    background-color: var(--container-light-bg);
+    background-color: var(--container-night-bg);
     border-radius: var(--container-radius);
     overflow: hidden;
     cursor: pointer;
@@ -89,7 +89,7 @@
     height: var(--sun-moon-diameter);
     margin: auto;
     border-radius: var(--container-radius);
-    background-color: var(--sun-bg);
+    background-color: var(--moon-bg);
     -webkit-box-shadow: 0.062em 0.062em 0.062em 0em rgba(254, 255, 239, 0.61) inset, 0em -0.062em 0.062em 0em #a1872a inset;
     box-shadow: 0.062em 0.062em 0.062em 0em rgba(254, 255, 239, 0.61) inset, 0em -0.062em 0.062em 0em #a1872a inset;
     -webkit-filter: drop-shadow(0.062em 0.125em 0.125em rgba(0, 0, 0, 0.25)) drop-shadow(0em 0.062em 0.125em rgba(0, 0, 0, 0.25));
@@ -113,6 +113,7 @@
     -webkit-transition: var(--transition);
     -o-transition: var(--transition);
     transition: var(--transition);
+    transform: translate(0);
     position: relative;
   }
   
@@ -172,25 +173,28 @@
   /* actions */
   
   .theme-switch__checkbox:checked + .theme-switch__container {
-    background-color: var(--container-night-bg);
+    background-color: var(--container-light-bg);
   }
   
   .theme-switch__checkbox:checked + .theme-switch__container .theme-switch__circle-container {
     left: calc(100% - var(--circle-container-offset) - var(--circle-container-diameter));
   }
   
-  .theme-switch__checkbox:checked + .theme-switch__container .theme-switch__circle-container:hover {
+  /* .theme-switch__checkbox:checked + .theme-switch__container .theme-switch__circle-container:hover {
     left: calc(100% - var(--circle-container-offset) - var(--circle-container-diameter) - 0.187em)
-  }
+  } */
   
   .theme-switch__circle-container:hover {
     left: calc(var(--circle-container-offset) + 0.187em);
   }
+  .theme-switch__checkbox:checked + .theme-switch__container .theme-switch__sun-moon-container {
+    background-color: var(--sun-bg); /* Sun color in light mode */
+}
   
   .theme-switch__checkbox:checked + .theme-switch__container .theme-switch__moon {
     -webkit-transform: translate(0);
     -ms-transform: translate(0);
-    transform: translate(0);
+    transform: translateX(100%);
   }
   
   .theme-switch__checkbox:checked + .theme-switch__container .theme-switch__clouds {
