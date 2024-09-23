@@ -36,3 +36,8 @@ body.light-mode .hero-connect:hover{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+body.light-mode .qualification-round{
+    background-color: #000 !important;
+}
+body.light-mode .qualification-line{
+    background-color: #000 !important;}
