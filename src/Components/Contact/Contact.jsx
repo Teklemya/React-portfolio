@@ -51,14 +51,14 @@ const Contact = () => {
                         </div>
                         <div className="contact-detail">
                             {/* <img src={call_icon} alt="Call" /> */}
-                            <FontAwesomeIcon icon={faPhone} />
+                            <FontAwesomeIcon className="call-icon" icon={faPhone} />
                             <a href="tel:+15135000630">
                             <p>+1 513-500-0630</p>
                             </a>
                         </div>
                         <div className="contact-detail">
                             {/* <img src={location_icon} alt="Location" /> */}
-                            <FontAwesomeIcon icon={faLocationDot} />
+                            <FontAwesomeIcon className="location-icon" icon={faLocationDot} />
                             <a href="https://www.google.com/maps?q=Cincinnati,+Ohio" target="_blank" rel="noopener noreferrer">
                             <p>Cincinnati, Ohio</p>
                             </a>
