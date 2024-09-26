@@ -53,3 +53,6 @@ body.light-mode .tech-stack{
 body.light-mode .mywork-showmore, body.light-mode .mywork-showless{
     border: 2px solid #000000;
 }
+body.light-mode .mail-icon, body.light-mode .call-icon, body.light-mode .location-icon{
+    color: #000000;
+}
