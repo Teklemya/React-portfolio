@@ -1,9 +1,12 @@
+/* eslint-disable no-unused-vars */
 import theme_pattern from "../../assets/theme_pattern.svg"
 import "./Contact.css"
 import BibleVerse from "../BibleVerse/BibleVerse"
 import mail_icon from "../../assets/mail_icon.svg"
 import location_icon from "../../assets/location_icon.svg"
 import call_icon from "../../assets/call_icon.svg"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 // eslint-disable-next-line no-unused-vars
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
@@ -41,19 +44,22 @@ const Contact = () => {
                 </p>
                     <div className="contact-details">
                         <div className="contact-detail">
-                            <img src={mail_icon} alt="Mail" />
+                            {/* <img src={mail_icon} alt="Mail" /> */}
+                            <FontAwesomeIcon icon={faEnvelope} />
                             <a href="mailto:teklemya@mail.uc.edu">
                             <p>teklemya@mail.uc.edu | isaacreactportfolio@gmail.com</p>
                             </a>
                         </div>
                         <div className="contact-detail">
-                            <img src={call_icon} alt="Call" />
+                            {/* <img src={call_icon} alt="Call" /> */}
+                            <FontAwesomeIcon icon={faPhone} />
                             <a href="tel:+15135000630">
                             <p>+1 513-500-0630</p>
                             </a>
                         </div>
                         <div className="contact-detail">
-                            <img src={location_icon} alt="Location" />
+                            {/* <img src={location_icon} alt="Location" /> */}
+                            <FontAwesomeIcon icon={faLocationDot} />
                             <a href="https://www.google.com/maps?q=Cincinnati,+Ohio" target="_blank" rel="noopener noreferrer">
                             <p>Cincinnati, Ohio</p>
                             </a>
