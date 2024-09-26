@@ -44,8 +44,8 @@ const Contact = () => {
                 </p>
                     <div className="contact-details">
                         <div className="contact-detail">
+                            <FontAwesomeIcon className="mail-icon" icon={faEnvelope} />
                             <a href="mailto:teklemya@mail.uc.edu">
-                              <FontAwesomeIcon className="mail-icon" icon={faEnvelope} />
                             <p>teklemya@mail.uc.edu | isaacreactportfolio@gmail.com</p>
                             </a>
                         </div>
