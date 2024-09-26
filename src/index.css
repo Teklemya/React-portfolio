@@ -50,3 +50,6 @@ body.light-mode .description{
 body.light-mode .tech-stack{
     color: #ff00ff !important;
 }
+body.light-mode .mywork-showmore, body.light-mode .mywork-showless{
+    border: 2px solid #000000;
+}
