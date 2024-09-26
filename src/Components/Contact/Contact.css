@@ -56,8 +56,9 @@
     gap: 20px;
     align-items: center;
 }
-.contact-detail img{
-    width: 30px;
+
+.mail-icon{
+    font-size: 30px;
 }
 .contact-detail a{
     text-decoration: none;

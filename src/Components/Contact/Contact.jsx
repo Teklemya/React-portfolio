@@ -45,8 +45,9 @@ const Contact = () => {
                     <div className="contact-details">
                         <div className="contact-detail">
                             {/* <img src={mail_icon} alt="Mail" /> */}
-                            <FontAwesomeIcon icon={faEnvelope} />
+                            
                             <a href="mailto:teklemya@mail.uc.edu">
+                              <FontAwesomeIcon className="mail-icon" icon={faEnvelope} />
                             <p>teklemya@mail.uc.edu | isaacreactportfolio@gmail.com</p>
                             </a>
                         </div>
