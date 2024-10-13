@@ -56,3 +56,6 @@ body.light-mode .mywork-showmore, body.light-mode .mywork-showless{
 body.light-mode .mail-icon, body.light-mode .call-icon, body.light-mode .location-icon{
     color: #000000;
 }
+body.light-mode .contact-right label{
+    color: #000000;
+}
