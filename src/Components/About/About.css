@@ -25,9 +25,10 @@
     gap: 60px;    
 }
 .about-left img{
-    width: 250px;
+    width: 250px !important;
     height: 250px; 
     border-radius: 20px;
+    display: none;
 }
 .about-right{
     display: flex;

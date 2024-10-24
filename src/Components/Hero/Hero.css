@@ -32,6 +32,7 @@
 }
 
 .hero-content img{
+    display: inline;
     margin-top: 15px;
     margin-bottom: 30px;
     width: 250px;
