@@ -54,7 +54,7 @@ const Qualification = () => {
               <div className="qualification_title"><h3>Bachelors In Technology</h3></div>
                 <span className="qualification-subtitle">Software Development - Univeristy of Cincinnati </span>
                 <div className="qualification-calendar">
-                  <FontAwesomeIcon className="calendar" icon={faCalendarAlt} /> Aug 2022 - Apr 2027
+                  <FontAwesomeIcon className="calendar" icon={faCalendarAlt} /> Aug 2022 - Apr 2026
                 </div>             
             </div>
               <div>   
@@ -74,7 +74,7 @@ const Qualification = () => {
             <div className="qualification_title"><h3>Bachelors In Technology</h3></div>
                 <span className="qualification-subtitle">Cyber Security - Univeristy of Cincinnati  </span>
                 <div className="qualification-calendar">
-                  <FontAwesomeIcon className="calendar" icon={faCalendarAlt} /> Aug 2022 - Apr 2027
+                  <FontAwesomeIcon className="calendar" icon={faCalendarAlt} /> Aug 2022 - Apr 2026
                 </div>             
             </div>
             
@@ -85,7 +85,7 @@ const Qualification = () => {
             <div className="qualification_title"><h3>Masters In Technology</h3></div>
                 <span className="qualification-subtitle">Information Technology - Univeristy of Cincinnati  </span>
                 <div className="qualification-calendar">
-                  <FontAwesomeIcon className="calendar" icon={faCalendarAlt} /> Jan 2025 - Apr 2027
+                  <FontAwesomeIcon className="calendar" icon={faCalendarAlt} /> Jan 2025 - Apr 2026
                 </div>             
             </div><div>   
                 <span className="qualification-round"></span>
