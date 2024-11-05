@@ -20,16 +20,13 @@ const About = () => {
     "prisma",
     "postgresql",
     "firebase",
-    "nginx",
     "vercel",
-    "testinglibrary",
-    "jest",
-    "cypress",
     "docker",
     "git",
+    "redis",
+    "flask",
     "gitlab",
     "vscode",
-    "sonarqube",
     "figma",
   ];
   return (
