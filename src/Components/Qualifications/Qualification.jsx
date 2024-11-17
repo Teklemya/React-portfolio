@@ -122,7 +122,7 @@ const Qualification = () => {
             </div>
 
             <div>
-            <div className="qualification_title"><h3>Digital Engineering Co-Op</h3></div>
+            <div className="qualification_title"><h3>Digital Engineer</h3></div>
                 <span className="qualification-subtitle">Enterprise MOD @ Fifth Third Bank</span>
                 <div className="qualification-calendar">
                   <FontAwesomeIcon className="calendar" icon={faCalendarAlt} /> Jan 2025 - May 2025
