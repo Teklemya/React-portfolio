@@ -58,7 +58,7 @@ const Qualification = () => {
                 </div>             
             </div>
               <div>   
-                <span className="qualification-round"></span>
+                <span className="qualification-round cech"></span>
                 <span className="qualification-line"></span>
               </div>
           </div>
@@ -66,7 +66,7 @@ const Qualification = () => {
             <div></div>
 
             <div>   
-                <span className="qualification-round"></span>
+                <span className="qualification-round cech"></span>
                 <span className="qualification-line"></span>
             </div>
 
@@ -88,7 +88,7 @@ const Qualification = () => {
                   <FontAwesomeIcon className="calendar" icon={faCalendarAlt} /> Jan 2025 - Apr 2026
                 </div>             
             </div><div>   
-                <span className="qualification-round"></span>
+                <span className="qualification-round cech"></span>
                 <span className="qualification-line"></span>
             </div>
           </div> 
@@ -99,6 +99,37 @@ const Qualification = () => {
           ? "qualification-content qualification__content-active" 
           : "qualification-content"
         }>
+           <div className="qualification-data">
+            <div>
+            <div className="qualification_title"><h3>DevOps Engineering Intern</h3></div>
+                <span className="qualification-subtitle">@ Honda</span>
+                <div className="qualification-calendar">
+                  <FontAwesomeIcon className="calendar" icon={faCalendarAlt} /> May 2025 - Aug 2025
+                </div>             
+            </div>
+              <div>   
+                <span className="qualification-round honda"></span>
+                <span className="qualification-line"></span>
+              </div>
+          </div>
+
+          <div className="qualification-data">
+            <div></div>
+
+            <div>   
+                <span className="qualification-round fifth-third"></span>
+                <span className="qualification-line"></span>
+            </div>
+
+            <div>
+            <div className="qualification_title"><h3>Digital Engineering Co-Op</h3></div>
+                <span className="qualification-subtitle">Enterprise MOD @ Fifth Third Bank</span>
+                <div className="qualification-calendar">
+                  <FontAwesomeIcon className="calendar" icon={faCalendarAlt} /> Jan 2025 - May 2025
+                </div>             
+            </div>
+          </div> 
+
           <div className="qualification-data">
             <div>
             <div className="qualification_title"><h3>Student Sucess Coach CooP</h3></div>
@@ -108,7 +139,7 @@ const Qualification = () => {
                 </div>             
             </div>
               <div>   
-                <span className="qualification-round"></span>
+                <span className="qualification-round cech"></span>
                 <span className="qualification-line"></span>
               </div>
           </div>
@@ -117,7 +148,7 @@ const Qualification = () => {
             <div></div>
 
             <div>   
-                <span className="qualification-round"></span>
+                <span className="qualification-round orange-is-better"></span>
                 <span className="qualification-line"></span>
             </div>
 
@@ -140,7 +171,7 @@ const Qualification = () => {
                 </div>             
             </div>
               <div>   
-                <span className="qualification-round"></span>
+                <span className="qualification-round cech"></span>
                 <span className="qualification-line"></span>
               </div>
           </div>
@@ -149,7 +180,7 @@ const Qualification = () => {
             <div></div>
 
             <div>   
-                <span className="qualification-round"></span>
+                <span className="qualification-round uc-health"></span>
                 <span className="qualification-line"></span>
             </div>
 
@@ -170,7 +201,7 @@ const Qualification = () => {
                 </div>             
             </div>
               <div>   
-                <span className="qualification-round"></span>
+                <span className="qualification-round uc-com"></span>
                 <span className="qualification-line"></span>
               </div>
           </div>
