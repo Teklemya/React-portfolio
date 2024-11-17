@@ -64,6 +64,14 @@ body.light-mode .mail-icon, body.light-mode .call-icon, body.light-mode .locatio
 body.light-mode .contact-right label{
     color: #000000;
 }
+@media (max-width: 768px){
+    body.light-mode .nav-menu li p {
+        text-decoration: none;
+        color: white !important;
+        padding: 5px 0;
+        font-size: 18px;
+}
+}
 @layer base {
   :root {
         --background: 0 0% 100%;
