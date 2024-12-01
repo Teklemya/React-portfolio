@@ -32,7 +32,7 @@ const Hero = () => {
 
     const intervalId = setInterval(() => {
       setCurrentLangIndex((prevIndex) => (prevIndex + 1) % languages.length);
-    }, 9000); // Switch languages every 5 seconds
+    }, 9000); // Switch languages every 9 seconds
 
     return () => clearInterval(intervalId);
   }, [currentLangIndex, setTranslatedName]); 
@@ -70,7 +70,7 @@ const Hero = () => {
           <span>{translatedName} here,</span> Full stack developer based in the US. {/*make sure to change && to || in the condition */} 
         </h1> 
         <p>
-          I specialize in creating interactive expriences for the web. I have 2
+          I specialize in creating interactive expriences for the web. Incoming Software Engineering Intern @ 5/3 Bank. I have 3
           years of experience in multiple companies like UCHealth, LDDL and OrangeIsBetter.
         </p>
         <div className="hero-action">
