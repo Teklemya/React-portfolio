@@ -25,7 +25,7 @@ Key Skills:
 Languages: JavaScript, Python, R, Java, C#
 Technologies: React.js, Django, .NET, Blazor, SQL Server, Azure<br>
 📊 Quick Stats <br>
-2+ years of professional experience<br>
+3+ years of professional experience<br>
 30+ completed projects<br>
 15+ programming languages mastered<br>
 
