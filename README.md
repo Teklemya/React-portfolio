@@ -2,6 +2,10 @@
 
 ይስሀቅ | Yishak Teklemariam - Full Stack Developer
 
+
+https://github.com/user-attachments/assets/24d8f190-8332-4257-8d45-8e217be8cb75
+
+
 Hello there!
 I’m Yishak Teklemariam ( اسحق ), a passionate Full Stack Developer based in Cincinnati, Ohio, with a strong focus on creating interactive experiences for the web. I bring over 2 years of experience working with companies like UCHealth, LDDL, and OrangeIsBetter, solving complex problems and delivering top-notch solutions for web and software development projects.
 
