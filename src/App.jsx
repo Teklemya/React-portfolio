@@ -5,7 +5,7 @@ import Navbar from "./Components/Navbar/Navbar"
 import Qualification from "./Components/Qualifications/Qualification"
 import Contact from "./Components/Contact/Contact"
 import Footer from "./Components/Footer/Footer"
-import { SpeedInsights } from "@vercel/speed-insights/*"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 
 const App = () => {
