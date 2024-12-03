@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar/Navbar"
 import Qualification from "./Components/Qualifications/Qualification"
 import Contact from "./Components/Contact/Contact"
 import Footer from "./Components/Footer/Footer"
+import { SpeedInsights } from "@vercel/speed-insights/*"
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
      <Qualification/>   
        <Contact/>
       <Footer/></div>
+      <SpeedInsights />
     </div>
   )
 }

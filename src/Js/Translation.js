@@ -4,7 +4,7 @@ const translationCache = {}; // Simple in-memory cache
 
 export async function getTranslation(text, targetLang) {
   const cacheKey = `${text}_${targetLang}`;
-  
+                                                                                                                      
   // Check if the translation is already cached
   if (translationCache[cacheKey]) {
     console.log("Returning cached translation for:", cacheKey);
