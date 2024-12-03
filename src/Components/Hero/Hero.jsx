@@ -32,7 +32,7 @@ const Hero = () => {
 
     const intervalId = setInterval(() => {
       setCurrentLangIndex((prevIndex) => (prevIndex + 1) % languages.length);
-    }, 9000); // Switch languages every 9 seconds
+    }, 7000); // Switch languages every 7 seconds
 
     return () => clearInterval(intervalId);
   }, [currentLangIndex, setTranslatedName]); 
