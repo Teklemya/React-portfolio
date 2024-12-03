@@ -1,4 +1,4 @@
-# React + JS based portfolio page
+# React + Tailwind based portfolio page
 
 ይስሀቅ | Yishak Teklemariam - Full Stack Developer
 
