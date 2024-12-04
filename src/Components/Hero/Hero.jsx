@@ -6,7 +6,7 @@ import resume from "/src/assets/resume.pdf";
 import Switch from '/src/Components/Switch/Switch.jsx';
 import DarkMode from '/src/Components/DarkMode/DarkMode.jsx';
 import Social from "/src/Components/Social/Social.jsx";
-import { getTranslation } from '/src/Js/Translation.js'; // Import the translation function
+import { getTranslation } from '/src/lib/Translation.js'; // Import the translation function
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 import { faSun, faMoon} from '@fortawesome/free-solid-svg-icons';
 

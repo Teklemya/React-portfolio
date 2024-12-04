@@ -6,6 +6,7 @@ import Qualification from "./Components/Qualifications/Qualification"
 import Contact from "./Components/Contact/Contact"
 import Footer from "./Components/Footer/Footer"
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import {Analytics} from '@vercel/analytics/react'
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
        <Contact/>
       <Footer/></div>
       <SpeedInsights />
+      <Analytics />
     </div>
   )
 }
