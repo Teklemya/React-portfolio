@@ -101,14 +101,14 @@ const Qualification = () => {
         }>
            <div className="qualification-data">
             <div>
-            <div className="qualification_title"><h3>DevOps Engineering Intern</h3></div>
-                <span className="qualification-subtitle">@ Honda</span>
+            <div className="qualification_title"><h3>Data Engineering Intern</h3></div>
+                <span className="qualification-subtitle">Enterprise Data Office @ Fifth Third Bank</span>
                 <div className="qualification-calendar">
                   <FontAwesomeIcon className="calendar" icon={faCalendarAlt} /> May 2025 - Aug 2025
                 </div>             
             </div>
               <div>   
-                <span className="qualification-round honda"></span>
+                <span className="qualification-round fifth-third"></span>
                 <span className="qualification-line"></span>
               </div>
           </div>
