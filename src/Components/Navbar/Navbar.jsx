@@ -30,8 +30,10 @@ const Navbar = () => {
         <img src={menu_close} onClick={closeMenu} alt="side bar close icon" className="nav-mob-close" />
         <li><AnchorLink href='#home'><p>Home</p></AnchorLink></li>
         <li><AnchorLink offset={50} href='#about'><p>About</p></AnchorLink></li>
+        <li><AnchorLink offset={50} href='#mywork'><p>Gateway</p></AnchorLink></li>        
         <li><AnchorLink offset={50} href='#qualification'><p>Experinces</p></AnchorLink></li>
-        <li><AnchorLink offset={50} href='#mywork'><p>Projects</p></AnchorLink></li>
+        <li><AnchorLink offset={50} href='#involvements'><p>Involvements</p></AnchorLink></li>
+        <li><AnchorLink offset={50} href='#Honors'><p>Honors</p></AnchorLink></li>
         <li><AnchorLink offset={50}  href='#contact'><p>Contacts</p></AnchorLink></li>
       </ul>
       {/* <div className="nav-connect">Connect with me</div> */}
