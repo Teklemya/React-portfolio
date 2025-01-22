@@ -70,7 +70,7 @@ const Hero = () => {
           <span>{translatedName} here,</span> Full stack developer based in the US. {/*make sure to change && to || in the condition */} 
         </h1> 
         <p>
-          I specialize in creating interactive expriences for the web. Incoming Software Engineering Intern @ 5/3 Bank. I have 3
+          I specialize in creating interactive expriences for the web. I am a Software Engineering Intern @ 5/3 Bank. I have 3
           years of experience in multiple companies like UCHealth, LDDL and OrangeIsBetter.
         </p>
         <div className="hero-action">
