@@ -12,7 +12,6 @@ export async function getTranslation(text, targetLang) {
   }
 
   const apiKey = import.meta.env.VITE_GEMINI_API_KEY; // Replace with your Google API key
-  console.log("API Key:", apiKey);
   const genAI = new GoogleGenerativeAI(apiKey);
   const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
